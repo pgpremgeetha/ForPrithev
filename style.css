@@ -187,15 +187,7 @@ body{
         top: 58%;
         left: 45%;
     }
-}
 
-@media all and (max-width: 320px){
-    body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     svg{
         width: 80%;
      }
@@ -203,4 +195,5 @@ body{
     svg#sign{
         width: 35%;
      }
+   
 }
