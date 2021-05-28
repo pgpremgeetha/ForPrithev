@@ -167,3 +167,40 @@ body{
     }
 }
 
+@media all and (max-width: 915px){
+    #line1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-51%, -150%);   
+    }
+    
+    #line2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #sign{
+        position: absolute;
+        top: 58%;
+        left: 45%;
+    }
+}
+
+@media all and (max-width: 320px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    svg{
+        width: 80%;
+     }
+    
+    svg#sign{
+        width: 35%;
+     }
+}
